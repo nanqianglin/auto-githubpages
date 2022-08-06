@@ -3,9 +3,9 @@ import type { NextPage } from 'next'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
-import ToggleTheme from '../src/components/ToggleTheme'
 import { useTranslation } from 'react-i18next'
-import LanguageSelect from '../src/components/LanguageSelect'
+import ToggleTheme from 'src/components/ToggleTheme'
+import LanguageSelect from 'src/components/LanguageSelect'
 
 const Home: NextPage = () => {
   const { t } = useTranslation('common')
