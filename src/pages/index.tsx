@@ -25,6 +25,7 @@ const Home: NextPage = () => {
         <Typography component="h1" color="text.primary">
           {t('title')}
         </Typography>
+        <p>1</p>
         <ToggleTheme />
         <LanguageSelect />
         <Typography component="h2" color="text.secondary">
